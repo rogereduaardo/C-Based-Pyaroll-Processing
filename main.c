@@ -17,6 +17,12 @@ int main() {
     
     // Read all the payroll entries
     // ...
-
+    employee_t emp;
+    //fileio_get_employee(employee_t *employee)
+    fileio_get_employee(&emp);
+    printf("%s %s %c %i %c %lf", emp.firstName,
+    emp.lastName, emp.gender, emp.tenure,
+    emp.rate, emp.salary);
+  
    // Display results
 }
