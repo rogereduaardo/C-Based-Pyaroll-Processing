@@ -10,7 +10,7 @@ int payroll_init();
 int payroll_add(employee_t *employee);
 
 // Return number of employees
-int payroll_get_num_employees()
+int payroll_get_num_employees();
 
 // Return number of employees based on gender
 // Input param c is M, F, or T
