@@ -16,4 +16,9 @@ int payroll_get_num_employees()
 // Input param c is M, F, or T
 int payroll_get_num_employees_by_gender(char c);
 
+// Print info about all employee info, going from first to last
+void payroll_print_first_to_last();
+// Print info about all employee info, going from last to first
+void payroll_print_last_to_first();
+
 #endif
