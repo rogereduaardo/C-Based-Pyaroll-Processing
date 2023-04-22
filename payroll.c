@@ -6,7 +6,7 @@
 static int num_employees = 0;
 static employee_t employee[MAX_NUM_EMPLOYEES] = { 0 };
 
- Return 0 on success or -1 on error
+//Return 0 on success or -1 on error
 int payroll_init()
 {
   return 0;

@@ -1,9 +1,9 @@
 #ifndef __PAYROLL_H_
 #define __PAYROLL_H_
 
-#include "emplyee.h"
+#include "employee.h"
 
-/ Return 0 on success or -1 on error
+//Return 0 on success or -1 on error
 int payroll_init();
 
 // Return 0 on success or -1 on error 
